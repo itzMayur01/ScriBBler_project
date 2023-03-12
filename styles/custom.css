@@ -1,0 +1,32 @@
+/* Bootstrap over written css properties */
+
+.btn-success{
+    width: 100%;
+}
+
+.Signup-inner{
+    color: blue;
+    
+}
+.Signup-inner:hover{
+    text-decoration: none;
+
+}
+
+.model-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+
+}
+.textArea{
+    width: 99%;
+    height: 373px;
+
+}
+
+.btn-primary{
+    margin-right: 43%;
+    width: 15%;
+
+}

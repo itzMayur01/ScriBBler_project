@@ -1,0 +1,27 @@
+/* Bootstrap over written css properties for postslist */
+
+body{
+    background: #ffeedd;
+
+}
+.modal-title{
+    padding-left: 40px;
+
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    background-color: green;
+    width: 20%;
+}
+
+.btn-secondary{
+    background-color: red;
+    width: 20%;
+}
+
+

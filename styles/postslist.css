@@ -1,0 +1,142 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1px;
+}
+
+#pageTitle{
+    color: blue;
+    font-size: 43px;
+}
+
+#pageTitle:hover{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#middleText{
+    font-size: 106%;
+    margin-block-start: -12px;
+}
+button{
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Signup-topButton{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 9px 19px;
+     margin-right: 12px;
+}
+
+.Signin-topButton{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 9px 19px;
+    margin: 12px 15px;
+    
+}
+
+.middleButton{
+    text-align: center;
+    margin-top: 20%;
+
+  }
+
+  .allPost-btn{
+    background-color: goldenrod;
+    padding: 10px 40px;
+    font-size: medium;
+    border-color: aliceblue;
+}
+
+.createPost-btn{
+    background-color: goldenrod;
+    padding: 10px 25px;
+    font-size: medium;
+    border-color: aliceblue;
+   
+}
+.post{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgb(17 4 63 / 20%), 0 4px 20px 0 rgb(79 19 97 / 19%);
+    margin: 18px 0;
+    border-radius: 15px;
+}
+
+.post-left{
+    background-color: white;
+    padding: 12px;
+    margin: 0;
+}
+
+.post-right{
+    
+    height: 100%;
+    background-color: #E8E8E8;
+    color: #000000;
+    border-radius: 0 15px 15px 0;
+    padding: 0 20px;
+}
+
+.post-right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+}
+
+.post-desc {
+    height: 67px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin-block-start: -15px;
+    line-height: 1.3;
+}
+
+.all-post-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+.delete-btn{
+   color: crimson;
+   
+}
+.post:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.edit-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+
+}
+
+.edit-btn:hover{
+    cursor: pointer;
+    
+}

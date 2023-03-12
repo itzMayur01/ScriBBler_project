@@ -1,0 +1,71 @@
+
+body{
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1px;
+}
+
+#pageTitle{
+    color: blue;
+    font-size: 43px;
+}
+
+#middleText{
+    font-size: 106%;
+    margin-block-start: -12px;
+}
+button{
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.Signup-topButton{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 9px 19px;
+     margin-right: 12px;
+}
+
+.Signin-topButton{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 9px 19px;
+    margin: 12px 15px;
+    
+}
+
+.middleButton{
+    text-align: center;
+    margin-top: 20%;
+
+  }
+
+  .allPost-btn{
+    background-color: goldenrod;
+    padding: 10px 40px;
+    font-size: medium;
+    border-color: aliceblue;
+}
+
+.createPost-btn{
+    background-color: goldenrod;
+    padding: 10px 25px;
+    font-size: medium;
+    border-color: aliceblue;
+   
+}
+
