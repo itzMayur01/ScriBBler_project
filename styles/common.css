@@ -53,14 +53,14 @@ button:hover {
   @media only screen and (max-width: 640px) {
     /* For mobile phones: */
     .Signin-topButton{
-     margin-left: 85px;
+     margin-left: 170px;
      margin-bottom: 10px;
      
     }
     .Signup-topButton{
         margin-left: 10px;
          font-size: 18px;
-        margin-left: 85px;
+        margin-left: 170px;
   }
 }
 
